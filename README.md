@@ -21,6 +21,8 @@ Each project is inside its own folder and includes:
 -pip install colorama
 -pip install playsound
 
+## AUTHORS:- ARYA MOURYA
+
 ## 🛠️ How to Run
 
 ```bash
@@ -28,4 +30,4 @@ cd project-folder-name
 python filename.py
 
 ---
-## AUTHORS:- ARYA MOURYA
+
