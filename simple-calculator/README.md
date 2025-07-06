@@ -37,5 +37,7 @@ A beginner-friendly Python calculator that takes two numbers and an operator, pe
 1. Clone the repository:
    ```bash
    git clone https://github.com/AryaMourya/python-local-projects.git
-   
-  ```
+   ```
+
+## Author:-
+[LinkedIn](https://linkedin.com/in/arya-mourya-a6a126316)
