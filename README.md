@@ -33,5 +33,5 @@ python countdown_timer.py
 ## 🔒 License
 
 This project is licensed under the MIT License.  
-See the [LICENSE](../LICENSE) file for more information.
+See the [LICENSE](https://github.com/AryaMourya/python-local-projects/blob/913374b6732d8bd703b95e3c6a1e35bd8838c28d/LICENSE) file for more information.
 ```
