@@ -39,5 +39,5 @@ A beginner-friendly Python calculator that takes two numbers and an operator, pe
    git clone https://github.com/AryaMourya/python-local-projects.git
    ```
 
-## Author:-
+## Author:-Arya Mourya
 [LinkedIn](https://linkedin.com/in/arya-mourya-a6a126316)
