@@ -17,3 +17,6 @@ print("CORRECT" if answer=="random acess memory" else "INCORRECT")
 print("QUESTION 4")
 answer=input("What does CPU stands for? ")
 print("CORRECT" if answer=="cental processing unit" else "INCORRECT")
+
+print("you got 4/4 correct congratulations.")
+print ("THANK YOU for you effort  ")
