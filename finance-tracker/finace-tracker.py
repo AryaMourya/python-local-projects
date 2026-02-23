@@ -19,11 +19,25 @@ while True:
     category =input("which kind of expense is made:")
     amount =float(input("Enter the amount of expense is made: Rs"))
 
-    expenses{
+    expenses={
       "date":date,
       "category":category,
       "amount":amount
     }
+    expenses.append(expenses)
+    print("\n Expense is added succesfully !")
+
+#View Expense
   if (Choice == 2):
+    if(len(expenses)==0 ):
+      print("No Expenses recorded.")
+    else:
+      print("*****This is the total expenses******") 
+      count=1
+      for each_expense in expenses:
+        print(f"{count} => {each_expense["date"]},{each_expense["category"]},{each_expense["amount"]} ")
+        count=count+1
+
+        
   if (Choice == 3):
   if (Choice == 4):
