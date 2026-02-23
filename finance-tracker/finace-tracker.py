@@ -1,6 +1,6 @@
 #Expense Tracker Application Project
 
-expenses = []
+expensesList = []
 print("Welcome to Expense Tracker")
 
 while True:
@@ -24,7 +24,7 @@ while True:
       "category":category,
       "amount":amount
     }
-    expenses.append(expenses)
+    expensesList.append(expenses)
     print("\n Expense is added succesfully !")
 
 #View Expense
@@ -34,10 +34,13 @@ while True:
     else:
       print("*****This is the total expenses******") 
       count=1
-      for each_expense in expenses:
+      for each_expense in expensesList:
         print(f"{count} => {each_expense["date"]},{each_expense["category"]},{each_expense["amount"]} ")
         count=count+1
 
-        
+  #View total Expense      
   if (Choice == 3):
+    total= 0
+    for each_expense in expensesList:
+      total =total + each_expense
   if (Choice == 4):
