@@ -28,7 +28,7 @@ while True:
     print("\n Expense is added succesfully !")
 
 #View Expense
-  if (Choice == 2):
+  elif (Choice == 2):
     if(len(expenses)==0 ):
       print("No Expenses recorded.")
     else:
@@ -38,9 +38,17 @@ while True:
         print(f"{count} => {each_expense["date"]},{each_expense["category"]},{each_expense["amount"]} ")
         count=count+1
 
-  #View total Expense      
-  if (Choice == 3):
+#View total Expense      
+  elif (Choice == 3):
     total= 0
     for each_expense in expensesList:
-      total =total + each_expense
-  if (Choice == 4):
+      total =total + each_expense["amount"]
+
+    print("\n TOTAL EXPENSE =", total)
+
+#Exit
+  elif(Choice == 4):
+    print("Thank You ! for using this finance tracker")
+    break
+  else:
+    print("INVALID CHOICE")
