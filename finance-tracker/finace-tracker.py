@@ -36,7 +36,7 @@ while True:
       count=1
       for each_expense in expensesList:
         print(f"{count}EXPENSE => {each_expense["date"]},{each_expense["category"]},{each_expense["amount"]} ")
-        count=count
+        count=count+1
 
 #View total Expense      
   elif (Choice == 3):
